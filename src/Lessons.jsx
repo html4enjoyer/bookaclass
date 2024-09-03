@@ -1,4 +1,4 @@
-function About() {
+function Lessons() {
 
     return (
       <div>
@@ -7,4 +7,4 @@ function About() {
     )
   }
   
-  export default About
+  export default Lessons
