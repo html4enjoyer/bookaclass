@@ -2,7 +2,7 @@ function About() {
 
     return (
       <div>
-        boop
+        boop g
       </div>
     )
   }
