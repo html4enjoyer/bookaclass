@@ -9,6 +9,7 @@ import Lessons from "./Lessons";
 import App from "./App";
 import Contact from "./Contact";
 import Home from "./Home";
+import Teachers from "./Teachers";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,12 @@ const router = createBrowserRouter([
         path: "contact",
         element: (
           <Contact />
+        ),
+      },
+      {
+        path: "teachers",
+        element: (
+          <Teachers />
         ),
       },
     ]
