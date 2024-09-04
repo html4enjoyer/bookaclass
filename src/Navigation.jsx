@@ -9,18 +9,25 @@ import { FaChalkboardTeacher } from "react-icons/fa";
 function Navigation() {
 
     return (
-      <div className='nav'>
-        <h1>
+      
+
+      <div className='nav' >
+        <div className='imageContainer'>
+
           <a href="\" rel="home">
             <img src="https://ditto-online.com/wp-content/uploads/2021/06/logo-ditto-online.png"></img>
           </a>
-          
+        </div>
+          <div className='navBar'>
+
           <NavLink to='/'><FaHome />Home </NavLink>
           <NavLink to='/Lessons'><MdOutlinePlayLesson />Lessons </NavLink>
           <NavLink to='/Teachers'><FaChalkboardTeacher />Teachers</NavLink>
           <NavLink to='/Contact'><FaPhoneVolume />Contact </NavLink>
-        </h1>
+          </div>
+        
       </div>
+     
     )
   }
   
