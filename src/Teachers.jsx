@@ -2,7 +2,7 @@ function Teachers() {
 
     return (
       <div>
-        boop g
+        teachers
       </div>
     )
   }

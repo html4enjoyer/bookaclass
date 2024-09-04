@@ -1,0 +1,34 @@
+.nav{
+    text-align: center;
+    background-color: rgb(33, 103, 126);
+    width: 100%;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    text-indent: 10px;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a:hover, a:active {
+    color: #eee
+}
+
+h1 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width:97%;
+    font-size: 30px;
+    line-height: 1cm;
+    padding: 15px;
+}
+
+img{
+    size: 20px;
+}

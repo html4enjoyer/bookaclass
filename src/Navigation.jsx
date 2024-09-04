@@ -1,15 +1,25 @@
 import './Navigation.css'
 import { NavLink } from 'react-router-dom'
 import { FaHome } from "react-icons/fa";
+import { MdOutlinePlayLesson } from "react-icons/md";
+import { FaPhoneVolume } from "react-icons/fa6";
+import { FaChalkboardTeacher } from "react-icons/fa";
 
 
 function Navigation() {
 
     return (
-      <div>
-        <NavLink to='/'><FaHome />Home</NavLink>
-        <NavLink to='/About'>About</NavLink>
-        <NavLink to='/Contact'>Contact</NavLink>
+      <div className='nav'>
+        <h1>
+          <a href="\" rel="home">
+            <img src=""></img>
+          </a>
+          
+          <NavLink to='/'><FaHome />Home </NavLink>
+          <NavLink to='/Lessons'><MdOutlinePlayLesson />Lessons </NavLink>
+          <NavLink to='/Teachers'><FaChalkboardTeacher />Teachers</NavLink>
+          <NavLink to='/Contact'><FaPhoneVolume />Contact </NavLink>
+        </h1>
       </div>
     )
   }
