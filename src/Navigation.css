@@ -6,18 +6,24 @@
     padding: 15px;
     text-decoration: none;
     text-indent: 10px;
+    justify-content: center;
+    position: relative;
+    display: flex;
 }
 
 a {
-    color: aliceblue;
+    color: rgb(214, 230, 245);
+    text-decoration: none;
+    padding: 40px;
+    transition: color .5s;
 }
 
 a:visited {
-    color: lightgray;
+    color: rgb(214, 230, 245);
 }
 
 a:hover, a:active {
-    color: #eee
+    color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -30,5 +36,6 @@ h1 {
 }
 
 img{
-    size: 20px;
+    max-block-size: 60px;
+    float: left;
 }

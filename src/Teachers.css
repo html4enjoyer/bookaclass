@@ -1,0 +1,21 @@
+.tech{
+    text-align: center;
+    font-size: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(33, 103, 126);
+}
+
+.prof{
+    max-block-size: 500px;
+    padding: 20px;
+    padding-left: 80px;
+    border-radius: 100%;
+}
+
+.prof2{
+    max-block-size: 500px;
+    padding: 20px;
+    padding-left: 80px;
+    border-radius: 100%;
+    float: right;
+}

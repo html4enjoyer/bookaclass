@@ -12,7 +12,7 @@ function Navigation() {
       <div className='nav'>
         <h1>
           <a href="\" rel="home">
-            <img src=""></img>
+            <img src="https://ditto-online.com/wp-content/uploads/2021/06/logo-ditto-online.png"></img>
           </a>
           
           <NavLink to='/'><FaHome />Home </NavLink>
