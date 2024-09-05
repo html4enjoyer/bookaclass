@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.nav{
+.avn{
     flex-flow: row wrap;
     background-color: rgb(33, 103, 126);
     width: 100%;
@@ -18,7 +18,7 @@
     height: 140px;
 }
 
-.nav::before {
+.avn::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -28,7 +28,7 @@
     z-index: 5;
 }
 
-.nav::after {
+.avn::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -38,7 +38,7 @@
     z-index: 5;
 }
 
-img {
+.avn img {
     width: 65%;
     display: flex;
     justify-content: center;
@@ -56,9 +56,10 @@ img {
     width: 80%;
     font-size: 2rem;
     margin: 10px;
+    padding-top:40px;
 }
 
-a {
+.imageContainer a {
     color: rgb(214, 230, 245);
     text-decoration: none;
     padding: 40px;

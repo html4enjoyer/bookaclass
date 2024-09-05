@@ -1,0 +1,45 @@
+.contai{
+    background-color: #e8eff6;
+    height:400px;
+    padding:30px;
+}
+
+.row{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap:100px;
+}
+
+.card{
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.card img{
+    min-block-size: 250px;
+    width:350px;
+}
+
+.desc{
+    position:relative;
+    text-align:center;
+    font-size: 30px;
+    padding-left:40px;
+    width: 400px;
+    
+}
+
+.font{
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 5px #000;
+}
+
+a{
+    text-decoration:none;
+}

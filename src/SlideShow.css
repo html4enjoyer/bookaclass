@@ -1,0 +1,25 @@
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 800px;
+    border-radius:5%;
+    box-shadow: 2px 2px 10px #000;
+}
+
+.each-slide-effect span {
+    padding: 20px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 5px #000;
+    
+}
+
+.nav{
+    opacity:50%;
+}
+
+.nav:hover{
+    opacity:80%;
+}

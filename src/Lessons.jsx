@@ -1,8 +1,12 @@
+import './Lessons.css'
+
 function Lessons() {
 
     return (
       <>
-        boop g
+        <div className="bep">
+
+        </div>
       </>
     )
   }

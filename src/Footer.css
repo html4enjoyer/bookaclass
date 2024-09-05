@@ -1,0 +1,35 @@
+.boop{
+    text-align: center;
+    background-color: #3a3a3a;
+    height:255px;
+    font-size:20px;
+    color:white;
+}
+
+.boop img {
+    justify-content: center;
+    align-items: center;
+    max-block-size: 100px;
+    padding: 5px;
+    margin-top: 2.5px;
+}
+
+.socials{
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #75787a;
+    border-bottom: 1px solid #75787a;
+    display:flex;
+    font-size:40px;
+    padding:20px;
+    gap:30px;
+}
+
+.cop{
+    margin-top:15px;
+}
+
+.socials a{
+    text-decoration: none;
+    color:white;
+}

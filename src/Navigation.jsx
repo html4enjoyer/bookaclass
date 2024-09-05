@@ -12,7 +12,7 @@ function Navigation() {
     return (
       
 
-      <div className='nav' >
+      <div className='avn' >
         <div className='imageContainer'>
 
           <a href="\" rel="home">
