@@ -11,36 +11,32 @@ h2{
     text-align: center;
 }
 
-.ri{
-    float:right;
-    margin-right: 570px;
+h3{
+    font-weight: 100;
 }
 
-.le{
-    float:left;
-    margin-left: 600px;
+.parent{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+
+.ri{
+    margin-right:30px;
 }
 
 .ri2{
-    float: right;
-    margin-right:545px;
+    margin-right:50px;
 }
 
 .ri3{
-    float: right;
-    margin-right:-160px;
-}
-
-.li2{
-    float: left;
-    margin-left:595px;
+    margin-right:15px;
 }
 
 .li3{
-    float: left;
-    margin-left:620px;
+    margin-left:-15px;
 }
 
-h3{
-    font-weight: 100;
+.li2{
+    margin-left:10px;
 }

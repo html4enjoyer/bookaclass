@@ -4,6 +4,7 @@ import { FaHome } from "react-icons/fa";
 import { MdOutlinePlayLesson } from "react-icons/md";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { FaChalkboardTeacher } from "react-icons/fa";
+import image from "../public/img/logo.png"
 
 
 function Navigation() {
@@ -15,7 +16,7 @@ function Navigation() {
         <div className='imageContainer'>
 
           <a href="\" rel="home">
-            <img src="https://ditto-online.com/wp-content/uploads/2021/06/logo-ditto-online.png"></img>
+            <img src={image} />
           </a>
         </div>
           <div className='navBar'>

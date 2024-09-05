@@ -5,19 +5,17 @@
 }
 
 .nav{
-   
     flex-flow: row wrap;
     background-color: rgb(33, 103, 126);
     width: 100%;
     color: white;
-    
     text-decoration: none;
     text-indent: 10px;
-   display: flex;
-position: relative;
-    
+    display: flex;
+    position: relative;
     box-sizing: border-box;
     z-index: 1;
+    height: 140px;
 }
 
 .nav::before {
@@ -29,6 +27,7 @@ position: relative;
     top: 20px;
     z-index: 5;
 }
+
 .nav::after {
     content: '';
     position: absolute;
@@ -39,22 +38,24 @@ position: relative;
     z-index: 5;
 }
 
-.imageContainer {
-    width: 10%;
+img {
+    width: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-block-size: 100px;
+    padding: 5px;
+    margin-left: 60px;
+    margin-top: 2.5px;
 }
 
 .navBar {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     gap: 20px;
     width: 80%;
     font-size: 2rem;
     margin: 10px;
-    
 }
 
 a {
@@ -79,9 +80,4 @@ a:hover, a:active {
     font-size: 30px;
     line-height: 1cm;
     padding: 15px;
-}
-
-img{
-    max-block-size: 60px;
-    float: left;
 }

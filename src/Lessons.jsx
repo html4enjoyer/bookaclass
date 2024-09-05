@@ -1,9 +1,9 @@
 function Lessons() {
 
     return (
-      <div>
+      <>
         boop g
-      </div>
+      </>
     )
   }
   
