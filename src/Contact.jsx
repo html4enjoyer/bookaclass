@@ -14,8 +14,8 @@ function Contact() {
         
         <h3 className='ri2'>contact@bookaclass.com</h3>
         <h3 className='li2'>ul. 9 Maja 20/4</h3><br></br>
-        <h3 className='ri2'>+48 203 982 347</h3>
-        <h3 className='li2'>Wrocław</h3>
+        <h3 className='ri3'>+48 203 982 347</h3>
+        <h3 className='li3'>Wrocław</h3>
         
       </div>
     )

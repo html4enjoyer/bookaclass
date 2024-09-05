@@ -23,12 +23,22 @@ h2{
 
 .ri2{
     float: right;
-    margin-right: -170px;
+    margin-right:545px;
+}
+
+.ri3{
+    float: right;
+    margin-right:-160px;
 }
 
 .li2{
     float: left;
-    margin-left: -98px;
+    margin-left:595px;
+}
+
+.li3{
+    float: left;
+    margin-left:620px;
 }
 
 h3{
