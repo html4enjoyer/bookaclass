@@ -6,6 +6,7 @@ function Contact() {
 
     return (
       <>
+      <div className="bep">
         <h1 className="con">Contact us!</h1>
           <div className="parent">
             <h2><MdPhoneIphone />Text or Call </h2>
@@ -22,7 +23,7 @@ function Contact() {
             <h3 className="li3">+48 203 982 347</h3>
             <h3 className="ri3">Wrocław</h3>
           </div>
-        
+          </div>
         
       </>
     )

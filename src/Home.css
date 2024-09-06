@@ -1,7 +1,8 @@
 .contai{
-    background-color: #e8eff6;
-    height:400px;
+    background-color: rgb(224, 233, 240);
+    height:380px;
     padding:30px;
+    border-radius: 5%;
 }
 
 .row{
@@ -29,9 +30,7 @@
     position:relative;
     text-align:center;
     font-size: 30px;
-    padding-left:40px;
     width: 400px;
-    
 }
 
 .font{
